@@ -1,0 +1,68 @@
+body{
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large ;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.navegacao{
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    align-content:center;
+    justify-content: center;
+}
+.navegacao p{
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    flex-basis: 0;
+}
+.grid{
+    margin: 80px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+.description{
+}
+.imgNimbus img{
+    width: 80vh;
+
+}
+.vantagens{
+    background-color: #f3f3f3;
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    padding-right: 20px;
+    font-size: xx-large;
+    color: #c6c6c6;
+}
+.icones{
+    display: grid;
+    padding-left: 30px;
+}
+.boxIcons{
+}
+.boxIcons img{
+    width: 30px;
+    height: 30px;
+}
+.boxIcons h3{
+    padding-right: 20px;
+    margin: 0;
+}
+.boxIcons p{
+    display: block;
+    padding: 20px;
+    margin: 0;
+}
+.textIcons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
